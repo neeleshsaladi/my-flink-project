@@ -10,18 +10,18 @@
 ## Prerequisites:
 - [Apache Flink Latest version](https://flink.apache.org/downloads.html#apache-flink-1121)
 - Java jdk installed
-- Maven
-- IntelliJ IDE
+- [nmap- Network Mapper](https://nmap.org/download.html)
+- [IntelliJ IDE](https://www.jetbrains.com/idea/download/#section=windows)
 
 
-## Introduction to Kafka
-- You can instal kafka by clicing on the following [link](https://kafka.apache.org/downloads) 
+## Introduction to Flink
+-
 - After download is completed, you can get a tar file. Extract the tar file by useing command 
-1. tar -xzf kafka_2.13-2.7.0.tgz
-2. cd kafka_2.13-2.7.0
-- After that you need to set the environment variable under KAFKA_HOME with C:\kafka_2.13-2.7.0
+1. tar -xvf flink-1.12.1-bin-scala_2.11.tgz
+2. cd flink-1.12.1
+- After that you need to set the environment variable under Flink_HOME with C:\flink-1-12.1
 
-## Kafka set up using Maven
+## Flink set up using Maven
 - To demonstrate I'm creating a project using maven in IntelliJ IDE.
 - You need to slect the Maven in the
  left pane and java version on the start screen. Now click on finish
@@ -33,13 +33,7 @@
 ![image3](https://github.com/Sindhujav18/flink-kafka-java/blob/main/int3.png)
 - Demonstration Video: https://app.vidgrid.com/view/0POsipXWwQ6Q
 
-## Basic commands to use kafka
-- To start Kafka environment
----
-``bin/zookeeper-server-start.sh config/zookeeper.properties``
-
-``bin/kafka-server-start.sh config/server.properties``
 
 ## References
-- https://www.tutorialspoint.com/apache_kafka/apache_kafka_installation_steps.htm 
-- https://kafka.apache.org/quickstart 
+- https://ci.apache.org/projects/flink/flink-docs-release-1.9/getting-started/tutorials/flink_on_windows.html
+- http://maven.apache.org/guides/introduction/introduction-to-dependency-mechanism.html#Dependency_Scope
